@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08 17, 17, 4:08:19 PM
+    Author     : user
+*/
+
+body{
+    font-family: gothamBook;
+}
+button {
+    font-family: "Arial";
+    background-color: #ff704d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+}
+
+input[type=text], input[type=password] {
+
+    font-family: "Arial";
+    width: 350px;
+    padding: 12px 10px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=number] {
+    width: 350px;
+    padding: 12px 10px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+@font-face {
+    font-family: gothamBook;
+    src: url(../fonts/Gotham-Book.otf);
+}
